@@ -22,7 +22,8 @@ func getTodos(context *gin.Context) {
 }
 func addTodo(context *gin.Context) {
 	var newTodo todo
-	if err := context.BindJSON(newTodo); err != nil {
+
+	if err := context.BindJSON(&newTodo); err != nil {
 		return
 	}
 	todos = append(todos, newTodo)
