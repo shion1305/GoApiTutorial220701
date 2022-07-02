@@ -1,0 +1,20 @@
+### GET simple request to get all todos
+GET http://localhost:9090/todos
+Accept: application/json
+
+<> 2022-07-01T175618.200.json
+<> 2022-07-01T175053.200.json
+<> 2022-07-01T174840.200.json
+<> 2022-07-01T173431.200.json
+
+### POST simple request to add todo
+POST http://localhost:9090/todos
+Content-Type: application/json
+
+{
+  "id": "1",
+  "item": "Test",
+  "completed": false
+}
+
+###
