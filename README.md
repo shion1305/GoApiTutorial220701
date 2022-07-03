@@ -1,4 +1,8 @@
 # ✨Welcome!!
+![Go 1.18](https://img.shields.io/github/go-mod/go-version/shion1305/GoApiTutorial220701?logo=go)
+![MIT License](https://img.shields.io/github/license/shion1305/GoApiTutorial220701)
+![Youtube](https://img.shields.io/badge/YouTube-Tutorial%20Video%20is%20here-%23FF0000?logo=youtube)
+
 
 This repository is a sample code for a tutorial YouTube video "Build a Rest API with GoLang" from Laith Academy.
 You can refer to this repository if you have trouble completing the video.
